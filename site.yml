@@ -1,16 +1,12 @@
-title : Blog Title
-tagline: Blog Tagline
+title : deadnode
+tagline: ... no BS
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+  name : Simon Peccaud
+  email : lol@lol.com
+  twitter : SimPeccaud
 
 navigation :
   - archive.html
   - tags.html
-  - categories.html
-  - pages.html
   - about.md
   

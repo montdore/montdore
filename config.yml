@@ -3,12 +3,12 @@
 
 RuhohSpec: '1.0'
 theme : hooligan
-production_url : http://sample.com
+production_url : http://deadno.de
 
 posts:
   permalink: /:categories/:title/
-  summary_lines: 20
-  latest: 10
+  summary_lines: 3
+  latest: 5
 
 pages:
   permalink: 'pretty'
