@@ -13,10 +13,11 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     {{{ assets }}} 
-    
+
+    <link rel="shortcut icon" href="{{urls.media}}/favicon.ico">
+
     <!-- fav and touch icons -->
   <!-- Update these with your own images
-    <link rel="shortcut icon" href="favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
@@ -35,11 +36,17 @@
           </a>      
 
 
-          <a class="brand" href="{{urls.base_path}}">{{ site.title }}</a>
+<!--          <a class="brand" href="{{urls.base_path}}">{{ site.title }}</a>
+-->
+
 
 
           <div class="nav-collapse">
             <ul class="nav">
+	      <a href="{{urls.base_path}}"><img src="{{urls.media}}/icon.png"></a>
+	    </ul>
+
+	    <ul class="nav">
               {{# site.navigation?to_pages }}
                 {{> pages_list }}
               {{/ site.navigation?to_pages }}
