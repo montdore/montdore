@@ -399,3 +399,10 @@ div.posts article div.date time {
 .post .title a{font-size:1.5em}
 .post .date {float:right}
 .post .more {clear:both}
+
+/* custom */
+div.tweet-share-button a {
+    display: block;
+    padding: 2px 5px 2px 20px;
+    background: url('https://twitter.com/favicons/favicon.ico') 1px center no-repeat;
+  }
