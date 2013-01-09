@@ -2,8 +2,8 @@
 # Usage: http://ruhoh.com/usage/configure/ 
 
 RuhohSpec: '1.0'
-theme : hooligan
-production_url : http://deadno.de
+theme : twitter
+production_url : http://montdore.ruhoh.com
 
 posts:
   permalink: /:categories/:title/
