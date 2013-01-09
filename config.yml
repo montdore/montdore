@@ -2,7 +2,7 @@
 # Usage: http://ruhoh.com/usage/configure/ 
 
 RuhohSpec: '1.0'
-theme : twitter
+theme : dinky
 production_url : http://montdore.ruhoh.com
 
 posts:
